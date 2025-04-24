@@ -123,14 +123,6 @@ int main() {
   printf("PIB per capita: %.8f bilhões/pessoa\n", PIBPC2);
   printf("Super Poder: %.2f\n", SUPERPODER2);
 
-  printf("gostaria de ver os resultados? (s/n): ");
-  scanf_s(" %c", &resposta, sizeof(resposta));
-  if (resposta == 's' || resposta == 'S') {
-    printf("\n\n=== Resultados ===\n");
-  } else {
-    printf("\n\nVocê escolheu não ver os resultados.\n");
-    return 0; //  <== Encerra o programa
-  }
   // Comparação das cartas
   printf("\n\n=== Comparação das cartas ===\n");
   // Comparando os super poderes
